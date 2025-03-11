@@ -5,6 +5,8 @@ import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import { WorkExperience } from "./WorkExperiences";
 import { Education } from "./Education";
+import { Publications } from "./Publications";
+import { Achievements } from "./Achievements";
 
 export function Beam() {
   return (
@@ -12,6 +14,8 @@ export function Beam() {
       <About />
       <WorkExperience />
       <Education />
+      <Publications />
+      <Achievements />
       <Skills />
       <Contact />
     </TracingBeam>

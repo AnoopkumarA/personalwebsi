@@ -42,22 +42,13 @@ export const StickyScroll = ({
 
   return (
     <motion.div
-      className="h-[30rem] overflow-y-auto experience-section no-scrollbar flex justify-center relative space-x-10 rounded-md p-10"
+      className="h-[40rem] overflow-y-auto experience-section no-scrollbar flex justify-center relative space-x-16 rounded-md p-12"
       ref={ref}
     >
-      <div className="div relative flex items-start px-4">
-        <div className="max-w-2xl">
+      <div className="div relative flex items-start px-6">
+        <div className="max-w-3xl">
           {content.map((item, index) => (
-            <div
-              key={"item.title + index"}
-              className="my-20 relative"
-              style={{
-                backgroundImage: `url(${item.content})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
+            <div key={"item.title + index"} className="my-24 relative">
               <motion.h2
                 initial={{
                   opacity: 0,
@@ -65,7 +56,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-2xl font-bold text-slate-100"
+                className="text-3xl font-bold text-slate-100"
               >
                 {item.title}
               </motion.h2>
@@ -76,18 +67,18 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10"
+                className="text-lg text-slate-300 max-w-xl mt-12"
               >
                 {item.description}
               </motion.p>
             </div>
           ))}
-          <div className="h-40" />
+          <div className="h-48" />
         </div>
       </div>
       <div
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md sticky top-10 overflow-hidden",
+          "hidden lg:block h-96 w-[500px] rounded-xl sticky top-10 overflow-hidden",
           contentClassName
         )}
       >

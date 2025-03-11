@@ -75,6 +75,7 @@ export function WorkExperience() {
             </motion.div>
           ) : null,
         }))}
+      
       />
     </div>
   );

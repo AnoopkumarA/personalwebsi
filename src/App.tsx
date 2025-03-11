@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import { WorkExperience } from './components/WorkExperiences';
 import { Education } from './components/Education';
+import { Publications } from './components/Publications';
+import { Achievements } from './components/Achievements';
 import Contact from './components/Contact';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <About />
       <WorkExperience />
       <Education />
+      <Publications />
+      <Achievements />
       <Contact />
     </div>
   );
