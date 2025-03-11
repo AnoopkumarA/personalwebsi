@@ -13,7 +13,7 @@ export default function About() {
         >
           <div className="md:w-1/2 md:pl-4">
             <img
-              src="../../public/images/ach (7).png"
+              src="/images/ach (7).png"
               alt="Renjith Thomas"
               className="rounded-2xl shadow-2xl w-full max-w-[22.3rem] mx-auto object-cover hover:scale-105 transition-transform duration-300"
             />
