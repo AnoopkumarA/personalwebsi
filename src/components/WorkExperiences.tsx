@@ -16,7 +16,7 @@ const workExperienceData = [
     department: "Department of Electronics & Communication Engineering",
     institution: "Musaliar College Pathanamthitta",
     description: `As the NBA Program Coordinator, I successfully led the ECE department to NBA accreditation (2023-2026). As Dean of Research and an APJAKTU Research Guide, I have one registered scholar and have published in an international Scopus-indexed conference. I secured ₹2,00,000 in seed funding from Kerala Startup Mission's IDEA Fest 2022 and showcased an AI-based offense detection demo at the Ente Keralam program by the Government of Kerala.`,
-    image: "/public/images/mcp.png",
+    image: "/images/mcp.png",
     date: "July 2019 - January 2024",
   },
   {
@@ -24,7 +24,7 @@ const workExperienceData = [
     department: "",
     institution: "GISAT Kottayam",
     description: `Served as a PG Coordinator and have attended two international conferences.`,
-    image: "/public/images/gisat.png",
+    image: "/images/gisat.png",
     date: "June 2012 - July 2019",
   },
   {
@@ -32,7 +32,7 @@ const workExperienceData = [
     department: "",
     institution: "Government Polytechnic College Nedumkandam",
     description: `Served as a guest lecturer for 8 months.`,
-    image: "/public/images/gpcn.png",
+    image: "/images/gpcn.png",
     date: "8 Months",
   },
   {
