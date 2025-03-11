@@ -52,39 +52,74 @@ const achievementGallery: {
       image: "/images/Achivement (1).jpeg"
     },
     {
+      title: "APJAKTU_CERD_Financial Assistance to Student Projects 2024-25 ",
+      description: "Awarded Amount 21,000",
+      image: "/images/Achivement (3).jpeg"
+    },
+    {
       title: "Build With AI ",
       description: "5th Place in International Hackathon",
-      image: "/images/Achivement (3).jpeg"
+      image: "/images/ach (4).png"
+    },
+    {
+      title: "Ente Keralam Showcase",
+      description: "AI-based Surveillance System Demo",
+      image: "/images/ach (2).png"
     }
   ],
   middleColumn: [
-    {
-      title: "LASER ARMED SURVEILLANCE PROJECT",
-      description: "CERD-funded 21,000/- Research Grant",
-      image: "/images/Achivement (2).jpeg"
-    },
+    
     {
       title: "NBA Accreditation",
       description: "Program Coordinator (2023-2026)",
-      image: "/images/Achivement (1).jpeg"
+      image: "/images/ach (10).png"
+    },
+    {
+      title: "Build With AI",
+      description: "5th Place in International Hackathon",
+      image: "/images/ach (6).png"
     },
     {
       title: "Kerala Startup Mission",
       description: "₹2,00,000 Seed Funding",
-      image: "/images/Achivement (2).jpeg"
-    }
+      image: "/images/ach (1).png"
+    },
+   
+    {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (3).png"
+    },
+    
+    
   ],
   rightColumn: [
     {
       title: "Kerala Startup Mission",
       description: "₹2,00,000 Seed Funding",
-      image: "/images/Achivement (1).jpeg"
+      image: "/images/ach (9).png"
     },
     {
       title: "Ente Keralam Showcase",
       description: "AI-based Surveillance System Demo",
+      image: "/images/ach (5).png"
+    },
+    {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (11).png"
+    },
+    {
+      title: "Build With AI",
+      description: "5th Place in International Hackathon",
       image: "/images/Achivement (2).jpeg"
+    },
+    {
+      title: "Kerala Startup Mission",
+      description: "₹2,00,000 Seed Funding",
+      image: "/images/ach (7).png"
     }
+    
   ]
 };
 
